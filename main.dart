@@ -5,7 +5,7 @@ main(List<String> args) {
 
 String? task1(String) {}
 
-int task2(int? a, int? b) {
+int? task2(int? a, int? b) {
   if (a == null) {
     a == 1;
   } else if (b == null) {
@@ -13,5 +13,5 @@ int task2(int? a, int? b) {
   } else {
     return a + b;
   }
-  return a! + b!;
+  // return a! + b!;
 }
