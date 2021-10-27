@@ -1,6 +1,6 @@
 main(List<String> args) {
-  print(task1(String));
-  print(task2(null, null));
+  print(task1(null));
+  print(task2(null, 2));
 }
 
 String? task1(String) {}
