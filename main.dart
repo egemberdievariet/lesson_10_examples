@@ -3,7 +3,9 @@ main(List<String> args) {
   print(task2(null, 2));
 }
 
-String? task1(String) {}
+String? task1(String? name) {
+  return name;
+}
 
 int? task2(int? a, int? b) {
   if (a == null) {
