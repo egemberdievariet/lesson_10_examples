@@ -1,10 +1,16 @@
+import 'dart:html';
+
 main(List<String> args) {
   print(task1(null));
   print(task2(null, 2));
 }
 
 String? task1(String? name) {
-  return name;
+  if (name == null) {
+    print("Error");
+  } else {
+    return name;
+  }
 }
 
 int? task2(int? a, int? b) {
